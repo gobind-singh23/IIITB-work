@@ -1,0 +1,3 @@
+[submodule "ta_for_cl_updated_pdoc/PlantDoc-Dataset"]
+	path = ta_for_cl_updated_pdoc/PlantDoc-Dataset
+	url = https://github.com/pratikkayal/PlantDoc-Dataset.git
