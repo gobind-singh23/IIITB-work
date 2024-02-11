@@ -23,7 +23,12 @@ task_dict = {'oxfordpet' : {0 : ['american_bulldog', 'scottish_terrier', 'englis
                                 6 : [x for x in range(60,70)], 7 : [x for x in range(70, 80)],
                                 8 : [x for x in range(80,90)], 9 : [x for x in range(90, 102)]
                             }  
-            
+            'pdoc' : { 0: ['Corn rust leaf', 'Squash Powdery mildew leaf', 'Potato leaf late blight', 'Tomato leaf bacterial spot', 'Tomato leaf late blight', 'Soyabean leaf'],
+                       1: ['Potato leaf early blight', 'Tomato Early blight leaf', 'Tomato Septoria leaf spot', 'Raspberry leaf', 'Cherry leaf', 'Apple Scab Leaf'],
+                       2: ['grape leaf', 'Bell_pepper leaf spot', 'Corn Gray leaf spot', 'Strawberry leaf', 'Blueberry leaf'],
+                       3: ['Tomato mold leaf','Apple leaf', 'Bell_pepper leaf', 'Corn leaf blight', 'Tomato leaf'],
+                       4: ['grape leaf black rot','Peach leaf', 'Apple rust leaf', 'Tomato leaf yellow virus', 'Tomato leaf mosaic virus']
+                       },
             }
 
 # for i in range(6):
@@ -53,6 +58,13 @@ ranges_of_classes = {
         4: (40, 50), 5: (50, 60),
         6: (60, 70), 7: (70, 80),
         8: (80, 90), 9: (90, 102),                        
+    },
+    "pdoc" : {
+        0: (0,6),
+        1: (6,12),
+        2:(12,17),
+        3: (17,22),
+        4: (22,27)
     }
 
 }
